@@ -1,0 +1,56 @@
+body {
+	background-image: url(Images/HTML.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+table {
+	border: 0; 
+	width: 100%; 
+	padding: 5px; 
+	vertical-align: top;
+	border-spacing: 5px;
+	padding: 5px;
+}
+table tr td {
+	vertical-align: text-top;
+	padding: 5px;
+}
+table tr td ul li {
+	list-style-type: none; 
+}
+table tr td ul li a {
+	color: #fff;
+}
+
+table tr td:nth-child(1){
+	width: 20%;
+	border: 1px solid red;
+	height: 1000px;
+}
+table tr td:nth-child(2){
+	width: 10%;
+	border: 1px solid #2B35FF;
+}
+table tr td:nth-child(3){
+	width: 40%;
+	border: 1px solid #02EA02;
+}
+table tr td:nth-child(4){
+	width: 10%;
+	border: 1px solid #FF00AE;
+}
+table tr td:nth-child(5){
+	width: 20%;
+	border: 1px solid #282923;
+}
+.table-right {
+	text-align: right;
+}
