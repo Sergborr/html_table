@@ -4,13 +4,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
-
-
-
-
-
-
 table {
 	border: 0; 
 	width: 100%; 
@@ -20,7 +13,7 @@ table {
 	padding: 5px;
 }
 table tr td {
-	vertical-align: text-top;
+	vertical-align: top;
 	padding: 5px;
 }
 table tr td ul li {
@@ -29,7 +22,6 @@ table tr td ul li {
 table tr td ul li a {
 	color: #fff;
 }
-
 table tr td:nth-child(1){
 	width: 20%;
 	border: 1px solid red;
@@ -53,4 +45,16 @@ table tr td:nth-child(5){
 }
 .table-right {
 	text-align: right;
+}
+.content {
+	height: 500px;
+	background: rgba(249,36,71, .8);
+	padding: 100px;
+
+}
+.content h2 {
+	margin-top: 0;
+	text-align: center;
+	padding-top: 20px;
+
 }
