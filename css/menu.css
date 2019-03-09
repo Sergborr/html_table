@@ -1,0 +1,37 @@
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+}
+.menu > ul {
+	background: #BE9147;
+	padding-left: 0;
+}
+.menu > ul li {
+	position: relative;
+}
+.menu > ul li:hover .drop {
+	display: block;
+}
+.menu > ul li a {
+	display: inline-block;
+	padding: 10px;
+}
+
+.drop {
+	position: absolute;
+	top: 38px;
+	left: 0;
+	background: gray;
+	padding-left: 0;
+	display: none;
+}
+.drop li {
+	display: block;
+}
+.drop li a:hover {
+	color: yellow;
+	text-decoration: underline; 	
+}
