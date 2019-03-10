@@ -1,12 +1,22 @@
+body {
+	background-image: url("../images/HTML.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 a {
 	text-decoration: none;
+	color: #EBEBEB;
 }
 li {
 	list-style-type: none;
 	display: inline-block;
 }
+.input {
+	padding-left: 1400px;
+}
 .menu > ul {
-	background: #BE9147;
+	background: #EE652A;
 	padding-left: 0;
 }
 .menu > ul li {
@@ -24,7 +34,7 @@ li {
 	position: absolute;
 	top: 38px;
 	left: 0;
-	background: gray;
+	background: #EE652A;
 	padding-left: 0;
 	display: none;
 }
@@ -33,5 +43,5 @@ li {
 }
 .drop li a:hover {
 	color: yellow;
-	text-decoration: underline; 	
+	text-decoration: none;
 }
