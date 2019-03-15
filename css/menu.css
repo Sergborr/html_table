@@ -8,16 +8,42 @@ a {
 	text-decoration: none;
 	color: #EBEBEB;
 }
+p {
+	display: grid;
+}
+.login_b{
+	position: absolute;
+}
 li {
 	list-style-type: none;
 	display: inline-block;
 }
+.login-right {
+	
+}
 .input {
-	padding-left: 1400px;
+	padding-left: 1450px;
+	display: inline-block;
+	position: absolute;
+	right: 9px;
+    top: 54px;
+    left: 1558px;
+    padding: 24px;
+    background-color: #EE652A;
+    border-radius: 0px;
+}	
+.menu{
+	position: absolute;
+	width: 100%;
+	background: #EE652A;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 .menu > ul {
+	width: 100%;
 	background: #EE652A;
-	padding-left: 0;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 .menu > ul li {
 	position: relative;
@@ -29,7 +55,11 @@ li {
 	display: inline-block;
 	padding: 10px;
 }
-
+.menu-right > ul {
+	width: 20%;
+	background: #EE652A;
+	padding-right: 10px;
+}
 .drop {
 	position: absolute;
 	top: 38px;
